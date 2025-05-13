@@ -4,10 +4,10 @@ A modern Vue.js project built with Quasar Framework and Pinia state management.
 
 ## Features
 
-- **Vue 3** with Composition API
+- **VueJS** with Composition API
 - **TypeScript** for type safety
-- **Quasar v2** UI framework
-- **Pinia v3** for state management
+- **Quasar** UI framework
+- **Pinia** for state management
 - **Vue Router v4** with history mode
 - **Tailwind CSS** integrated
 - **Auto-import** for Vue and Quasar components
