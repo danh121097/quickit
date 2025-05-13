@@ -1,0 +1,14 @@
+{
+  "templates": [
+    {
+      "name": "vuejs/quasar",
+      "description": "Vue project with Quasar Framework/Pinia/TypeScript",
+      "path": "../vuejs.quasar"
+    },
+    {
+      "name": "vuejs/quasar/micro-route",
+      "description": "Vue project with Micro-route Architecture/Quasar Framework/Pinia/TypeScript",
+      "path": "../vuejs.quasar.micro-route"
+    }
+  ]
+}

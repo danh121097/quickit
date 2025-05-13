@@ -1,0 +1,41 @@
+@use 'src/css/mixin.scss';
+
+.sqk-page {
+  margin: auto;
+  position: absolute !important;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s cubic-bezier(0.65, 0, 0.35, 1);
+    content: '';
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  &.deactive {
+    transform: translateX(-20%);
+  }
+
+  transform: translateX(0);
+
+  @include mixin.fit;
+  @include mixin.fullscreen;
+
+  &__body {
+    @include mixin.fit;
+  }
+}
+
+.sqk-page.deactive::before {
+  opacity: 1;
+}
+
+.page-slide-enter-from,
+.page-slide-leave-to {
+  transform: translateX(100%);
+}

@@ -1,0 +1,25 @@
+{
+  "extends": "./.quasar/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"],
+      "@types": ["src/types"],
+      "@components": ["src/components"],
+      "@composables": ["src/composables"],
+      "@data": ["src/data"],
+      "@helpers": ["src/helpers"],
+      "@pages": ["src/pages"],
+      "@stores": ["src/stores"],
+      "@repositories": ["src/repositories"],
+      "@constants": ["src/constants"],
+      "#q-app": ["./node_modules/@quasar/app-vite/types/index.d.ts"],
+      "#q-app/wrappers": ["./node_modules/@quasar/app-vite/types/app-wrappers.d.ts"],
+      "#q-app/bex/background": [
+        "./node_modules/@quasar/app-vite/types/bex/entrypoints/background.d.ts"
+      ],
+      "#q-app/bex/content": ["./node_modules/@quasar/app-vite/types/bex/entrypoints/content.d.ts"],
+      "#q-app/bex/private/bex-bridge": ["./node_modules/@quasar/app-vite/types/bex/bex-bridge.d.ts"]
+    }
+  }
+}

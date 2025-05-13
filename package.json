@@ -1,0 +1,75 @@
+{
+  "name": "quickit",
+  "version": "1.0.0",
+  "description": "CLI tool for creating quick project templates",
+  "author": "Danh Nguyen <danh121097@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "quickit": "./cli/index.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "create": "node cli/create.js",
+    "test": "echo \"No test specified\"",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "core-js": "^3.8.3",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "eslint": "^7.32.0"
+  },
+  "files": [
+    "cli/**",
+    "vuejs.quasar/**",
+    "vuejs.quasar.micro-route/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "vuejs",
+    "nuxtjs",
+    "reactjs",
+    "nextjs",
+    "quasar",
+    "shadcn",
+    "mantine",
+    "tailwindcss",
+    "pinia",
+    "zustand",
+    "tanstack",
+    "cli",
+    "template",
+    "generator",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danh121097/quickit.git"
+  },
+  "homepage": "https://github.com/danh121097/quickit#readme",
+  "bugs": {
+    "url": "https://github.com/danh121097/quickit/issues"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
