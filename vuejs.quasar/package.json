@@ -1,8 +1,8 @@
 {
-  "name": "vue-base",
+  "name": "vuejs.quasar",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "description": "A modern Vue.js project built with Quasar Framework and Pinia state management.",
+  "productName": "VueJS App with Quasar & Pinia",
   "author": "danhnguyen <danhnguyen@beeknights.com>",
   "type": "module",
   "private": true,
