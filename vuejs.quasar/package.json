@@ -2,7 +2,7 @@
   "name": "vuejs.quasar",
   "version": "0.0.1",
   "description": "A modern VueJS project template featuring Quasar Framework, Pinia, Tailwind CSS, and more. This template is designed for rapid development of scalable, beautiful VueJS applications.",
-  "productName": "VueJS + Quasar + Pinia Template",
+  "productName": "VueJS + Quasar Template",
   "author": "danhnguyen <danh121097@gmail.com>",
   "type": "module",
   "private": true,

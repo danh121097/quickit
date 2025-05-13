@@ -2,12 +2,12 @@
   "templates": [
     {
       "name": "vuejs/quasar",
-      "description": "VueJS project with Quasar/Pinia",
+      "description": "VueJS project with Quasar/TailwindCSS/Pinia",
       "path": "../vuejs.quasar"
     },
     {
       "name": "vuejs/quasar/micro-route",
-      "description": "VueJS project with Micro-route Architecture/Quasar/Pinia",
+      "description": "VueJS project with Micro-route Architecture/Quasar/TailwindCSS/Pinia",
       "path": "../vuejs.quasar.micro-route"
     },
     {
