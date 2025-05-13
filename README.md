@@ -47,7 +47,9 @@ quickit --help
 
 ## Available Templates
 
-1. **vuejs-base** - VueJS project with Quasar/Pinia
+**vuejs-base**
+
+- VueJS project with Quasar/Pinia
 
 ```plaintext
 src/
@@ -68,7 +70,9 @@ src/
 ├── types/            # TypeScript type definitions
 ```
 
-2. **vuejs/quasar/micro-route** - VueJS project with Micro-route Architecture/Quasar/Pinia
+**vuejs/quasar/micro-route**
+
+- VueJS project with Micro-route Architecture/Quasar/Pinia
 
 ```plaintext
 src/
