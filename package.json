@@ -32,6 +32,7 @@
     "cli/**",
     "vuejs.quasar/**",
     "vuejs.quasar.micro-route/**",
+    "nextjs.mantine/**",
     "README.md",
     "LICENSE"
   ],
@@ -56,7 +57,7 @@
     "type": "git",
     "url": "git+https://github.com/danh121097/quickit.git"
   },
-  "homepage": "https://github.com/danh121097/quickit#readme",
+  "homepage": "https://harrynguyen.vercel.app",
   "bugs": {
     "url": "https://github.com/danh121097/quickit/issues"
   },

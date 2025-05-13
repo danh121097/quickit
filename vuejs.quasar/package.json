@@ -1,9 +1,9 @@
 {
   "name": "vuejs.quasar",
   "version": "0.0.1",
-  "description": "A modern Vue.js project built with Quasar Framework and Pinia state management.",
-  "productName": "VueJS App with Quasar & Pinia",
-  "author": "danhnguyen <danhnguyen@beeknights.com>",
+  "description": "A modern VueJS project template featuring Quasar Framework, Pinia, Tailwind CSS, and more. This template is designed for rapid development of scalable, beautiful VueJS applications.",
+  "productName": "VueJS + Quasar + Pinia Template",
+  "author": "danhnguyen <danh121097@gmail.com>",
   "type": "module",
   "private": true,
   "scripts": {

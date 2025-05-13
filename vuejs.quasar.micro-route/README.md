@@ -1,6 +1,6 @@
-# VueJS App with Micro-Route Architecture
+# VueJS + Quasar + Pinia + Micro-Route Template
 
-A modern Vue.js project built with Quasar Framework, Pinia state management, and Micro-Route architecture.
+A modern VueJS project template featuring [Quasar Framework](https://quasar.dev/), [Pinia](https://pinia.vuejs.org/), [Vue Micro-Route](https://www.npmjs.com/package/vue-micro-route), [Tailwind CSS](https://tailwindcss.com/), and more. This template is designed for rapid development of scalable, beautiful VueJS applications with advanced routing capabilities.
 
 ## Features
 
@@ -8,16 +8,14 @@ A modern Vue.js project built with Quasar Framework, Pinia state management, and
 - **TypeScript** for type safety
 - **Quasar** UI framework
 - **Pinia** for state management
-- **Vue Micro-Route** architecture for handling page and dialog routing
-- **Tailwind CSS** integrated
+- **Vue Micro-Route** for advanced page/dialog routing
+- **Tailwind CSS** utility-first styling
 - **Auto-import** for Vue, Vue Router, Pinia, and Micro-Route
 - **i18n** internationalization
 - **Axios** for HTTP requests with interceptors
 - **ESLint & Prettier** for code quality
-- **SCSS** for styling with custom mixins
 - **Socket.io** client integration
 - **GSAP** animations
-- **Dayjs**, **Lodash**, and **Numeral** utilities
 
 ## Project Structure
 
@@ -44,37 +42,35 @@ src/
 └── types/              # TypeScript type definitions
 ```
 
-## Install the dependencies
+## Getting Started
+
+### Install dependencies
 
 ```bash
-yarn
+yarn install
 # or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Development
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
+### Lint & Format
 
 ```bash
 yarn lint
 # or
 npm run lint
-```
 
-### Format the files
-
-```bash
 yarn format
 # or
 npm run format
 ```
 
-### Build the app for production
+### Build for Production
 
 ```bash
 quasar build
@@ -123,3 +119,11 @@ closeDialog('dialogName');
 - [Vue Router Documentation](https://router.vuejs.org/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vue Micro-Route Documentation](https://www.npmjs.com/package/vue-micro-route)
+
+## TypeScript & Auto-imports
+
+The project is configured with TypeScript and uses auto-imports for Vue, Vue Router, Pinia, and Quasar components, making development faster and cleaner.
+
+---
+
+This template is part of the [quickit](https://github.com/danh121097/quickit) project for rapid project bootstrapping.

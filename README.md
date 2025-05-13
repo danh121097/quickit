@@ -1,13 +1,14 @@
 # quickit
 
-A CLI tool for creating quick projects templates.
+A CLI tool for rapidly creating modern project templates for VueJS, NuxtJS, ReactJS, NextJS, and more. Designed for developers who want to bootstrap scalable, best-practice projects in seconds.
 
 ## Features
 
-- **Multiple Language/Framework**: VueJS | NuxtJS | ReactJS | NextJS
+- **Multiple Language/Framework Support**: VueJS, NuxtJS, ReactJS, NextJS
 - **Interactive CLI**: Guided process for creating new projects
-- **Package Manager Support**: Use either npm or yarn
-- **Optimized Development**: Pre-configured with best practices
+- **Flexible Package Manager**: Use npm or yarn
+- **Best Practices**: Pre-configured with TypeScript, linting, formatting, and scalable folder structures
+- **Ready-to-Use Templates**: Includes Quasar, Pinia, Tailwind, Micro-Route, Mantine, Zustand, React Query, and more
 
 ## Installation
 
@@ -15,7 +16,7 @@ A CLI tool for creating quick projects templates.
 # Install globally
 npm install -g quickit
 
-# Or use with npx
+# Or use with npx (no global install required)
 npx quickit
 ```
 
@@ -29,37 +30,36 @@ Run the CLI without any arguments for an interactive setup:
 quickit
 ```
 
-Or use the create command:
+Or use the create command directly:
 
 ```bash
-quickit create test-app
+quickit create my-app
 ```
 
 ### Command Line Options
 
 ```bash
-# Get version
-quickit --version
-
-# Get help
-quickit --help
+quickit --version   # Show version
+quickit --help      # Show help
 ```
 
 ## Available Templates
 
-**vuejs-base**
+### vuejs.quasar
 
-- VueJS project with Quasar/Pinia
+- VueJS project with Quasar, Pinia and TypeScript
+
+#### Folder Structure
 
 ```plaintext
 src/
 ├── App.vue           # Root Vue component
-├── @core             # Global component
+├── @core/            # Global components and layouts
 ├── assets/           # Static assets (images, fonts, etc.)
-├── boot/             # Boot files for initializing plugins (e.g., axios, i18n)
+├── boot/             # Boot files (axios, i18n)
 ├── components/       # Shared Vue components
 ├── composables/      # Vue 3 Composition API utilities
-├── css/              # SCSS stylesheets
+├── css/              # SCSS stylesheets with Tailwind
 ├── helpers/          # Helper functions and constants
 ├── i18n/             # Internationalization resources
 ├── layouts/          # Layout components
@@ -67,58 +67,75 @@ src/
 ├── repositories/     # API service layers
 ├── router/           # Vue Router configuration
 ├── stores/           # Pinia state management
-├── types/            # TypeScript type definitions
+└── types/            # TypeScript type definitions
 ```
 
-**vuejs/quasar/micro-route**
+### vuejs.quasar.micro-route
 
-- VueJS project with Micro-route Architecture/Quasar/Pinia
+- VueJS project with Micro-route Architecture, Quasar, Pinia and TypeScript
+
+#### Folder Structure
 
 ```plaintext
 src/
-├── App.vue           # Root Vue component
-├── @core             # Global component
-├── assets/           # Static assets (images, fonts, etc.)
-├── boot/             # Boot files for initializing plugins (e.g., axios, i18n)
-├── components/       # Shared Vue components
-├── composables/      # Vue 3 Composition API utilities
-├── css/              # SCSS stylesheets
-├── helpers/          # Helper functions and constants
-├── i18n/             # Internationalization resources
-├── layouts/          # Layout components
-├── microRouter/      # Micro-route architecture files
-├── pages/            # Page components
-├── repositories/     # API service layers
-├── router/           # Vue Router configuration
-├── routerDialogs/    # Dialog-specific routes
-├── routerPages/      # Page-specific routes
-├── stores/           # Pinia state management
-├── types/            # TypeScript type definitions
+├── App.vue             # Root Vue component
+├── @core/              # Global components and layouts
+│   └── layouts/        # Core layout components for micro-routing
+├── assets/             # Static assets (images, fonts, etc.)
+├── boot/               # Boot files (axios, i18n)
+├── components/         # Shared Vue components
+├── composables/        # Vue 3 Composition API utilities
+├── css/                # SCSS stylesheets with Tailwind
+├── helpers/            # Helper functions and constants
+├── i18n/               # Internationalization resources
+├── layouts/            # Layout components
+├── microRouter/        # Micro-route configuration
+├── pages/              # Page components for standard Vue Router
+├── repositories/       # API service layers
+├── router/             # Vue Router configuration
+├── routerDialogs/      # Dialog components for micro-routing
+├── routerPages/        # Page components for micro-routing
+├── stores/             # Pinia state management
+└── types/              # TypeScript type definitions
 ```
 
-## Folder Structure for Generated Templates
+### nextjs.mantine
 
-Each template generated by `quickit` follows a well-organized folder structure to ensure scalability and maintainability. Below are the folder structures for the available templates:
+- Next.js project with Mantine UI, Tailwind CSS, Zustand, React Query and TypeScript
+
+#### Folder Structure
+
+```plaintext
+src/
+├── app/                # Next.js app directory (routing, layout, pages)
+├── components/         # Reusable React components
+│   └── provider/       # Context and providers (QueryClient, QueryParam)
+├── css/                # Global styles (Tailwind, Mantine)
+├── enums/              # TypeScript enums
+├── hooks/              # Custom React hooks
+├── routes/             # Route definitions
+├── services/           # API and core service logic
+├── stores/             # Zustand state management
+├── theme/              # Mantine theme configuration
+├── types/              # TypeScript type definitions
+├── utils/              # Utility functions
+public/                 # Static assets
+```
 
 ## Development
 
 ### Setup for Development
 
 ```bash
-# Clone the repository
 git clone https://github.com/danh121097/quickit.git
 cd quickit
-
-# Install dependencies
 npm install
-
-# Link for local development
 npm link
 ```
 
 ### Testing Changes
 
-After making changes, you can test them by running:
+After making changes, test by running:
 
 ```bash
 quickit create test-app

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A modern Vue.js project built with Quasar Framework, Pinia state management, and Micro-Route architecture.",
   "productName": "VueJS App with Micro-Route Architecture",
-  "author": "danhnguyen <danhnguyen@beeknights.com>",
+  "author": "danhnguyen <danh121097@gmail.com>",
   "type": "module",
   "private": true,
   "scripts": {

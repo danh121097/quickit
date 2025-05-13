@@ -1,6 +1,6 @@
-# VueJS App with Quasar & Pinia
+# VueJS + Quasar + Pinia Template
 
-A modern Vue.js project built with Quasar Framework and Pinia state management.
+A modern VueJS project template featuring [Quasar Framework](https://quasar.dev/), [Pinia](https://pinia.vuejs.org/), [Tailwind CSS](https://tailwindcss.com/), and more. This template is designed for rapid development of scalable, beautiful VueJS applications.
 
 ## Features
 
@@ -8,22 +8,20 @@ A modern Vue.js project built with Quasar Framework and Pinia state management.
 - **TypeScript** for type safety
 - **Quasar** UI framework
 - **Pinia** for state management
-- **Vue Router v4** with history mode
-- **Tailwind CSS** integrated
+- **Vue Router** with history mode
+- **Tailwind CSS** utility-first styling
 - **Auto-import** for Vue and Quasar components
 - **i18n** internationalization
 - **Axios** for HTTP requests with interceptors
 - **ESLint & Prettier** for code quality
-- **SCSS** for styling with custom mixins
 - **Socket.io** client integration
-- **Dayjs**, **GSAP**, **Lodash**, and **Numeral** utilities
 
 ## Project Structure
 
 ```plaintext
 src/
 ├── App.vue           # Root Vue component
-├── @core             # Global components
+├── @core/            # Global components and layouts
 ├── assets/           # Static assets (images, fonts, etc.)
 ├── boot/             # Boot files (axios, i18n)
 ├── components/       # Shared Vue components
@@ -39,37 +37,35 @@ src/
 └── types/            # TypeScript type definitions
 ```
 
-## Install the dependencies
+## Getting Started
+
+### Install dependencies
 
 ```bash
-yarn
+yarn install
 # or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Development
 
 ```bash
 quasar dev
 ```
 
-### Lint the files
+### Lint & Format
 
 ```bash
 yarn lint
 # or
 npm run lint
-```
 
-### Format the files
-
-```bash
 yarn format
 # or
 npm run format
 ```
 
-### Build the app for production
+### Build for Production
 
 ```bash
 quasar build
@@ -96,3 +92,7 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-
 ## TypeScript & Auto-imports
 
 The project is configured with TypeScript and uses auto-imports for Vue, Vue Router, Pinia, and Quasar components, making development faster and cleaner.
+
+---
+
+This template is part of the [quickit](https://github.com/danh121097/quickit) project for rapid project bootstrapping.
