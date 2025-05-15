@@ -1,6 +1,6 @@
 export function useTicker(mode: 's' | 'm' = 's') {
   const now = ref(Date.now());
-  let secInterval: NodeJS.Timeout;
+  let secInterval: ReturnType<typeof setInterval>;
 
   const stopTicker = () => {
     clearInterval(secInterval);

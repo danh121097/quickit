@@ -1,6 +1,11 @@
 {
   "templates": [
     {
+      "name": "vuejs/standard",
+      "description": "VueJS project with TailwindCSS/Pinia",
+      "path": "../vuejs.standard"
+    },
+    {
       "name": "vuejs/quasar",
       "description": "VueJS project with Quasar/TailwindCSS/Pinia",
       "path": "../vuejs.quasar"

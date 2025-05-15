@@ -45,6 +45,29 @@ quickit --help      # Show help
 
 ## Available Templates
 
+### vuejs.standard
+
+- VueJS project with TailwindCSS/Pinia
+
+#### Folder Structure
+
+```plaintext
+src/
+├── assets/       # Images, fonts, etc.
+├── components/   # Vue components
+├── composables/  # Reusable composition functions
+├── enums/        # TypeScript enums
+├── layouts/      # App layouts (default, etc.)
+├── pages/        # File-based routing pages
+├── plugins/      # App/plugin setup (Pinia, Dayjs, etc.)
+├── router/       # Vue Router setup
+├── scss/         # SCSS and Tailwind CSS imports
+├── services/     # API and business logic
+├── stores/       # Pinia stores
+├── types/        # TypeScript types
+└── utils/        # Utility functions
+```
+
 ### vuejs.quasar
 
 - VueJS project with Quasar, Pinia and TypeScript
