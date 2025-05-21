@@ -69,7 +69,7 @@ export default defineConfig((ctx) => {
           '@types': path.join(__dirname, './src/types'),
           '@components': path.join(__dirname, './src/components'),
           '@composables': path.join(__dirname, './src/composables'),
-          '@helpers': path.join(__dirname, './src/helpers'),
+          '@utils': path.join(__dirname, './src/utils'),
           '@pages': path.join(__dirname, './src/pages'),
           '@stores': path.join(__dirname, './src/stores'),
           '@repositories': path.join(__dirname, './src/repositories'),

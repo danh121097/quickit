@@ -8,7 +8,7 @@
       "@components": ["src/components"],
       "@composables": ["src/composables"],
       "@data": ["src/data"],
-      "@helpers": ["src/helpers"],
+      "@utils": ["src/utils"],
       "@pages": ["src/pages"],
       "@stores": ["src/stores"],
       "@repositories": ["src/repositories"],
