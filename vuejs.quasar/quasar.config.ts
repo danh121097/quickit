@@ -54,7 +54,11 @@ export default defineConfig((ctx) => {
 
       // publicPath: '/',
       // analyze: true,
-      // env: {},
+      env: {
+        APP_NAME: '',
+        APP_END_POINT: '',
+        APP_API_PREFIX: '',
+      },
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
